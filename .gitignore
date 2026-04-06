@@ -1,0 +1,48 @@
+# ---- Build directories ----------------------------------------
+build/
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+out/
+
+# ---- CMake artifacts ------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# ---- Compiled binaries ----------------------------------------
+txn-graph-engine
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# ---- Object files & dependency info ---------------------------
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.d
+
+# ---- IDE / editor files ---------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Profiling / instrumentation ------------------------------
+*.gcno
+*.gcda
+*.gcov
+gmon.out
+callgrind.out.*
+perf.data
